@@ -18,4 +18,5 @@ url("iconfont.woff?3ad70e6a871dc682bb74a1ebe9ab1123") format("woff");
 
 .icon-smazterround:before {
 	content: "\f101";
+	font-size: 48px;
 }
