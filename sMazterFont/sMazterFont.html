@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sMazterFont</title>
+	<style>
+		body,html{
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: sans-serif;
+		}
+		.svgtofont-container{
+			padding: 10px 20px;
+		}
+		.preview {
+			line-height: 2em;
+		}
+
+		.preview__icon {
+			display: inline-block;
+			width: 32px;
+			text-align: center;
+		}
+
+		.icon {
+			display: inline-block;
+			font-size: 16px;
+		}
+		.footer{
+			background: #1faeda;
+		    padding: 5px 0px;
+		    margin: 0 auto;
+		    text-align: center;
+		    font-size: 12px;
+		    display: block;
+		    position: fixed;
+		    width: 100%;
+		    bottom: 0px;
+		}
+
+		@font-face {
+	font-family: "sMazterFont";
+	src: url("sMazterFont.eot?5d19c3b31de873b316be01e90a7399c6?#iefix") format("embedded-opentype"),
+url("sMazterFont.woff2?5d19c3b31de873b316be01e90a7399c6") format("woff2"),
+url("sMazterFont.woff?5d19c3b31de873b316be01e90a7399c6") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: sMazterFont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-sMazterFont:before {
+	content: "\f101";
+}
+
+	</style>
+</head>
+<body>
+	<div class="svgtofont-container">
+		<h1>sMazterFont</h1>
+		<div class="preview">
+			<span class="preview__icon">
+				<span class="icon icon-sMazterFont"></span>
+			</span>
+			<span>sMazterFont</span>
+		</div>
+	</div>
+	<div class="footer">© sMazter</div>
+</body>
+</html>
