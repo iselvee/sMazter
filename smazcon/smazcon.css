@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "smazcon";
+	src: url("smazcon.eot?56f404f5b63e8c7686cd79a37dc60255?#iefix") format("embedded-opentype"),
+url("smazcon.woff2?56f404f5b63e8c7686cd79a37dc60255") format("woff2"),
+url("smazcon.woff?56f404f5b63e8c7686cd79a37dc60255") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: smazcon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-smazcon:before {
+	content: "\f101";
+	font-size: 60px;
+}
