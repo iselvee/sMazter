@@ -1,13 +1,13 @@
     var body = document.body,
-        overlay = document.querySelector('.overlay22'),
-        overlayBtts = document.querySelectorAll('button[class$="overlay22"]');
+        overlay = document.querySelector('.overlay'),
+        overlayBtts = document.querySelectorAll('button[class$="overlay"]');
         
     [].forEach.call(overlayBtts, function(btt) {
 
       btt.addEventListener('click', function() { 
          
          /* Detect the button class name */
-         var overlayOpen = this.className === 'open-overlay22';
+         var overlayOpen = this.className === 'open-overlay';
          
          /* Toggle the aria-hidden state on the overlay and the 
             no-scroll class on the body */
