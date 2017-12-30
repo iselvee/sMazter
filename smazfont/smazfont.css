@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "smazfont";
+	src: url("smazfont.eot?11d0eed1cfc812f406ab1a3675867b63?#iefix") format("embedded-opentype"),
+url("smazfont.woff2?11d0eed1cfc812f406ab1a3675867b63") format("woff2"),
+url("smazfont.woff?11d0eed1cfc812f406ab1a3675867b63") format("woff");
+}
+
+.font {
+	line-height: 1;
+}
+
+.font:before {
+	font-family: smazfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.font-smazterfont-cert:before {
+	content: "\f101";
+}
+.font-smazterfont-crown:before {
+	content: "\f102";
+}
+.font-smazterfont-envelope:before {
+	content: "\f103";
+}
+.font-smazterfont-menu:before {
+	content: "\f104";
+}
+.font-smazterfont-thumb:before {
+	content: "\f105";
+}
