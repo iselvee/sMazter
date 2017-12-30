@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "smazfont";
+	src: url("smazfont.eot?55dc96cfee641db2cd36acf132aa522e?#iefix") format("embedded-opentype"),
+url("smazfont.woff2?55dc96cfee641db2cd36acf132aa522e") format("woff2"),
+url("smazfont.woff?55dc96cfee641db2cd36acf132aa522e") format("woff");
+}
+
+.sf {
+	line-height: 1;
+}
+
+.sf:before {
+	font-family: smazfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.sf-smazterfont-certificate:before {
+	content: "\f101";
+}
+.sf-smazterfont-crown:before {
+	content: "\f102";
+}
+.sf-smazterfont-envelope:before {
+	content: "\f103";
+}
+.sf-smazterfont-menu:before {
+	content: "\f104";
+}
+.sf-smazterfont-thumb:before {
+	content: "\f105";
+}
