@@ -5,29 +5,29 @@ url("smazfont.woff2?11d0eed1cfc812f406ab1a3675867b63") format("woff2"),
 url("smazfont.woff?11d0eed1cfc812f406ab1a3675867b63") format("woff");
 }
 
-.font {
+.sf {
 	line-height: 1;
 }
 
-.font:before {
+.sf:before {
 	font-family: smazfont !important;
 	font-style: normal;
 	font-weight: normal !important;
 	vertical-align: top;
 }
 
-.font-smazterfont-cert:before {
+.sf-smazterfont-cert:before {
 	content: "\f101";
 }
-.font-smazterfont-crown:before {
+.sf-smazterfont-crown:before {
 	content: "\f102";
 }
-.font-smazterfont-envelope:before {
+.sf-smazterfont-envelope:before {
 	content: "\f103";
 }
-.font-smazterfont-menu:before {
+.sf-smazterfont-menu:before {
 	content: "\f104";
 }
-.font-smazterfont-thumb:before {
+.sf-smazterfont-thumb:before {
 	content: "\f105";
 }
