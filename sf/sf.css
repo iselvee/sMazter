@@ -12,8 +12,7 @@ url("sf.woff?4965a0593e29b0b8d9baba351cfd63e6") format("woff");
 .sf:before {
 	font-family: sf !important;
 	font-style: normal;
-	font-weight: 900;
-	vertical-align: top;
+	font-weight: normal !important;
 }
 
 .sf-sf-certificate:before {
