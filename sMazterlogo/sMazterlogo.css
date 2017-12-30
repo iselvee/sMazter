@@ -18,5 +18,4 @@ url("sMazterlogo.woff?aca8a20d12c9249017667e870b3b7a24") format("woff");
 
 .logo-sMazterlogo:before {
 	content: "\f101";
-	font-size: 70px;
 }
