@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "sf";
+	src: url("sf.eot?ce99aa00b8762bf944d3e5c17b73c41c?#iefix") format("embedded-opentype"),
+url("sf.woff2?ce99aa00b8762bf944d3e5c17b73c41c") format("woff2"),
+url("sf.woff?ce99aa00b8762bf944d3e5c17b73c41c") format("woff");
+}
+
+.sf {
+	line-height: 1;
+}
+
+.sf:before {
+	font-family: sf !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.sf-sf-certificate:before {
+	content: "\f101";
+}
+.sf-sf-crown:before {
+	content: "\f102";
+}
+.sf-sf-envelope:before {
+	content: "\f103";
+}
+.sf-sf-menu:before {
+	content: "\f104";
+}
+.sf-sf-thumb:before {
+	content: "\f105";
+}
