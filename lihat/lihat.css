@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "lihat";
+	src: url("lihat.eot?a8b5285326623d5aa4aacfe422b64c13?#iefix") format("embedded-opentype"),
+url("lihat.woff2?a8b5285326623d5aa4aacfe422b64c13") format("woff2"),
+url("lihat.woff?a8b5285326623d5aa4aacfe422b64c13") format("woff");
+}
+
+.font {
+	line-height: 1;
+}
+
+.font:before {
+	font-family: lihat !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.font-lihatpanduan:before {
+	content: "\f101";
+}
+.font-lihatsertifikat:before {
+	content: "\f102";
+}
