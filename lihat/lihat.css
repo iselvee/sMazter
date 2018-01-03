@@ -17,8 +17,8 @@ url("lihat.woff?a8b5285326623d5aa4aacfe422b64c13") format("woff");
 }
 
 .font-lihatpanduan:before {
-	content: "\flihat1";
+	content: "\f101";
 }
 .font-lihatsertifikat:before {
-	content: "\flihat2";
+	content: "\f102";
 }
