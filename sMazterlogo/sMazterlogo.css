@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "sMazterlogo";
+	src: url("sMazterlogo.eot?d80082d84432728ded11323bf172fec1?#iefix") format("embedded-opentype"),
+url("sMazterlogo.woff2?d80082d84432728ded11323bf172fec1") format("woff2"),
+url("sMazterlogo.woff?d80082d84432728ded11323bf172fec1") format("woff");
+}
+
+.font {
+	line-height: 1;
+}
+
+.font:before {
+	font-family: sMazterlogo !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.font-sMazterlogo:before {
+	content: "\f101";
+}
+.font-sMazterpanduan:before {
+	content: "\f102";
+}
+.font-sMaztersertifikat:before {
+	content: "\f103";
+}
