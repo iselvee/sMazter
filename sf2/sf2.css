@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "sf2";
+	src: url("sf2.eot?3c520aef33953b7e2b5ce11d6a18e82a?#iefix") format("embedded-opentype"),
+url("sf2.woff2?3c520aef33953b7e2b5ce11d6a18e82a") format("woff2"),
+url("sf2.woff?3c520aef33953b7e2b5ce11d6a18e82a") format("woff");
+}
+
+.sf2 {
+	line-height: 1;
+}
+
+.sf2:before {
+	font-family: sf2 !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.sf2-certificateclass:before {
+	content: "\f101";
+}
